@@ -1,0 +1,45 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Compiled Application Bundles & Archives
+*.app/
+*.app
+*.zip
+
+# Swift Package Manager build directory
+.build/
+
+# Xcode & SwiftPM user state
+.swiftpm/
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+*.xcworkspace/*
+!*.xcworkspace/contents.xcworkspacedata
+DerivedData/
+
+# User-specific Xcode state
+*.xcuserdata
+*.xcuserstate
+
+# Credentials, secrets, and environment variables
+.env
+.env.*
+*.pem
+*.key
+*.cert
+*.cer
+*.crt
+*.p12
+*.pfx
+
+# Logs & scratch
+*.log
+scratch/
+
+# Temporary files
+*.swp
+*~
+*.orig
